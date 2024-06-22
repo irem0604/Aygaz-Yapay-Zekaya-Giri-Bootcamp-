@@ -6,6 +6,7 @@ Bu proje, Fashion MNIST veri setini kullanarak çeşitli makine öğrenmesi ve d
 - **Fashion MNIST:** 10 farklı giysi kategorisine ait 70.000 gri tonlamalı görüntü. Her görüntü 28x28 piksel boyutundadır. Veri seti, 60.000 eğitim ve 10.000 test örneğine bölünmüştür.
 
 İşte verilerin nasıl göründüğüne dair bir örnek:
+
 ![fashion-mnist-sprite](https://github.com/irem0604/Aygaz-Yapay-Zekaya-Giris-Bootcamp-/assets/173558753/4edc97c9-3d4c-4fa3-aa2d-76f4b0fcf524)
 
 ## Kullanılan Modeller
@@ -29,7 +30,10 @@ Modellerin karşılaştırmalı performans sonuçları aşağıdaki gibidir:
 | **Logistic Regression** | 0.8412   | 0.8397    | 0.8412   | 0.8399   |
 | **ANN**                 | 0.8927   | 0.9085    | 0.8675   | 0.8926   |
 
-• Bu çalışmada kullanılan modeller arasında ANN ve SVC en yüksek performansı göstermiştir.Özellikle ANN, karmaşık ve büyük veri setlerinde üstün performans sergileyebilir.
-• Random Forest modeli de yüksek performansı ile dikkat çekmektedir. KNN ve Logistic Regression, daha basit ve hızlı modeller olarak kabul edilebilir ancak performansları biraz daha düşüktür.Decision Tree modeli ise en düşük performansı göstermiştir.
-• Bu sonuçlar, model seçiminde veri setinin boyutu, karmaşıklığı ve hesaplama kaynakları gibi faktörlerin dikkate alınması gerektiğini göstermektedir.
-• Her modelin avantajları ve dezavantajları değerlendirilerek, belirli bir uygulama için en uygun model seçilmelidir.
+- Bu çalışmada kullanılan modeller arasında ANN ve SVC en yüksek performansı göstermiştir.Özellikle ANN, karmaşık ve büyük veri setlerinde üstün performans sergileyebilir.
+
+- Random Forest modeli de yüksek performansı ile dikkat çekmektedir. KNN ve Logistic Regression, daha basit ve hızlı modeller olarak kabul edilebilir ancak performansları biraz daha düşüktür.Decision Tree modeli ise en düşük performansı göstermiştir.
+
+- Bu sonuçlar, model seçiminde veri setinin boyutu, karmaşıklığı ve hesaplama kaynakları gibi faktörlerin dikkate alınması gerektiğini göstermektedir.
+
+- Her modelin avantajları ve dezavantajları değerlendirilerek, belirli bir uygulama için en uygun model seçilmelidir.
