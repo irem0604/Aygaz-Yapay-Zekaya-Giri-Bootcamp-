@@ -29,4 +29,7 @@ Modellerin karşılaştırmalı performans sonuçları aşağıdaki gibidir:
 | **Logistic Regression** | 0.8412   | 0.8397    | 0.8412   | 0.8399   |
 | **ANN**                 | 0.8927   | 0.9085    | 0.8675   | 0.8926   |
 
-
+• Bu çalışmada kullanılan modeller arasında ANN ve SVC en yüksek performansı göstermiştir.Özellikle ANN, karmaşık ve büyük veri setlerinde üstün performans sergileyebilir.
+• Random Forest modeli de yüksek performansı ile dikkat çekmektedir. KNN ve Logistic Regression, daha basit ve hızlı modeller olarak kabul edilebilir ancak performansları biraz daha düşüktür.Decision Tree modeli ise en düşük performansı göstermiştir.
+• Bu sonuçlar, model seçiminde veri setinin boyutu, karmaşıklığı ve hesaplama kaynakları gibi faktörlerin dikkate alınması gerektiğini göstermektedir.
+• Her modelin avantajları ve dezavantajları değerlendirilerek, belirli bir uygulama için en uygun model seçilmelidir.
